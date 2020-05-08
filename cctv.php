@@ -53,7 +53,6 @@ $_SESSION['mailsent'] = null;
 </head>
 
 <body>
-    <!-- Add your content of header -->
     <header>
         <nav class="navbar navbar-inverse navbar-fixed-top bg-danger" style="background-color: #343A40;">
             <div class="container">
@@ -73,7 +72,7 @@ $_SESSION['mailsent'] = null;
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <ul class="nav navbar-nav navbar-right">
-                        <li>
+                    <li>
                             <a href="./index.html" class="anchor-link">Home</a>
                         </li>
                         <li>
@@ -88,25 +87,25 @@ $_SESSION['mailsent'] = null;
         </nav>
     </header>
 
-    <!-- Add your site or app content here -->
     <div class="container " style="margin-top: 70px;">
         <div class="row">
             <div class="col-xs-12 col-md-6">
                 <div class="template-example">
-                    <h2 class="text-center">Access Control Systems</h2>
+                    <h2 class="text-center">CCTV</h2>
                     <p>
-                        Access control systems can help you better keep important things safe, keep your family safe,
-                        prevent theft, and even help you guard secrets, be it personal or business.
+                    We at Rubtech Technologies understand your fears and offer you the
+                    best state of the art CCTV solutions at the moment to give you the power you need to stay on top of
+                    every situation at home, office or anywhere you care about.
                     </p>
-                    <img src="./assets/images/access-control-img2.jpeg" alt="access contol system"
+                    <img src="./assets/images/cctv-img.jpg" alt="cctv"
                         class="img-responsive"><br>
-                    <p>It is very easy to lose important things, when the wrong people have access to the right things.
-                        Safeguarding your building and house or parts of your office from people you do not trust
-                        completely is very important. It is your sole responsibility to keep the wrong people away from
-                        the right things in your office or home, so that you do not lose very valuable things.<br>
-                        We at Rubtech Technologies are very conscious of security and safety, so we have developed the
-                        very best access control systems and have access to procure and install international standard
-                        systems to suit your needs, and secure you.
+                    <p>
+                    Whether it is to monitor employees’ activity when you are out of the office, or to
+                    monitor and catch intruders around your home when you are away, or even simply to be able to monitor
+                    your kids while you are out of the house, CCTV solutions can really help you stay in control of
+                    everything you care about.It gets really disturbing when you have to be out of a place and you need
+                    to know what is happening there at anytime, and you have no way of doing that.<br>With our products,
+                    you can record and replay anytime, or even watch things as the happen right from your phone screen.
                     </p>
                 </div>
             </div>
@@ -117,9 +116,8 @@ $_SESSION['mailsent'] = null;
                         <div class="col-xs-12 col-md-9">
                             <div class="section-container-spacer">
                                 <h2 class="text-center">Get in touch</h2>
-                                <p>fill the form below, and we will call you to discus, help you find the best
-                                    solution to fit your very specification.
-                                </p>
+                                <p>Just fill the form bellow, and we will contact you to discuss and find
+                    what is right for you.</p>
                             </div>
                             <form id="myform" name="myform" action="form.php" method="post" onsubmit="return validate()">
                                 <div class="row">
@@ -144,7 +142,7 @@ $_SESSION['mailsent'] = null;
                                 </div>
 
                                 <div class="form-group">
-                                    <textarea class="form-control" id="service" name="service" rows="3" placeholder="Enter service(s)" reqired></textarea>
+                                    <textarea class="form-control" id="text" name="text" rows="3" placeholder="Enter service(s)" reqired></textarea>
                                 </div>
                                 <div>
 

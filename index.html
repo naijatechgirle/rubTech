@@ -14,20 +14,45 @@
   
   <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon">
   <link href="./assets/favicon.ico" rel="icon">
+  <link href="./assets/stylesheets/animate.css" rel="stylesheet">
   <link href="./assets/stylesheets/main.css" rel="stylesheet">
   <link href="./assets/stylesheets/style.css" rel="stylesheet">
-
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2486740551543591');
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=2486740551543591&ev=PageView
+    &noscript=1" />
+    </noscript>
 
 </head>
 
 <body>
 
- <!-- Add your content of header -->
 <header>
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="./index.html" style="font-family: magento;">rub<span class="navColor">tech</span></a>
+        <a class="navbar-brand animated fadeInUp delay-1s" href="./index.html" style="font-family: magento;">rub<span class="navColor">tech</span></a>
         <button type="button" class="navbar-toggle collapsed">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
@@ -54,13 +79,13 @@
 
 
 <!-- Add your site or app content here -->
-<div class="background-image-container white-text-container" style="background-image: url('./assets/images/rub_img.jpg')">
+<div class="background-image-container white-text-container" style="background-image: url('./assets/images/lock2.jpg')">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
-            <div class="col-xs-11">
-                <h4 id="caption">The Security System For The 21st Century</h4>
-                <p id="caption2">we secure, protect and guarantee the best security humanly possible</p>
+            <div class="col-xs-11 animated fadeInUp delay-1s">
+                <h4 id="caption" style="color: #00000">The Security System For The 21st Century</h4>
+                <p id="caption2" style="color: #00000">we secure, protect and guarantee the best security humanly possible</p>
                         </div>
         </div>
     </div>
@@ -73,7 +98,7 @@
         <div class="row">
             <div class="col-xs-12 col-md-12 section-container-spacer">
                 <h3 class="text-center caption4">Our Services</h3>
-                <h2 class="text-center">24/7 Protection</h2>
+                <h2 class="text-center animated fadeInUp delay-1s">24/7 Protection</h2>
                 <p class="text-center range">our full range services and products dosen't leave any space for malicious outrages.</p>
                 <!-- <hr> -->
             </div>
@@ -160,16 +185,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
                             #30 Mbari Street, Opp. Tweeter Bites, Owerri, Imo State.
                         </p>
                         <p>
-                            <a href="#" class="fa-icon" title="">
-                        <i class="fa fa-phone" aria-hidden="true">08037963488</i>
-                        </a>
+                            <i class="fa fa-phone" aria-hidden="true"> 08037963488</i>
                         </p>
                     </div>
 
                 </div>
 
                 <div class="col-md-4">
-                        
                     <h4>Find Us</h4>
                     
                     <div class="form-group">

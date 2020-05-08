@@ -4,6 +4,7 @@ session_start();
 $name = $_POST['name'];
 $email = $_POST['email'];
 $number = $_POST['mobile'];
+$service = $_POST['service'];
 
 // Import PHPMailer classes into the global namespace
 // These must be at the top of your script, not inside a function
@@ -22,7 +23,7 @@ try {
     $mail->Host       = 'smtp.sendgrid.net';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
     $mail->Username   = 'apikey';                     // SMTP username
-    $mail->Password   = '';                               // SMTP password
+    $mail->Password   = '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';                               // SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
@@ -38,7 +39,8 @@ try {
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'New Product Request';
-    $mail->Body    = "New message from $name <br/> ... email is $email and phone number is $number";
+    $mail->Body    = "New message from $name <br> 
+    email address: $email <br> phone number: $number <br> service(s) wanted: $service";
     // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();

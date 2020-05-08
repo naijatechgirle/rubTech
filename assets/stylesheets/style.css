@@ -39,9 +39,9 @@ a:hover {
 .product a:hover {
     color: red !important;
 }
-/* .product img {
-    border-radius: 3px !important;
-} */
+.font-weight-bold {
+    font-weight: bold;
+}
 nav {
     color: #ffffff;
 }
@@ -50,6 +50,9 @@ nav {
 }
 .caption4 {
     color: #66C0B3;
+}
+.caption, .caption2 { 
+    color: #000000 !important;
 }
 @media (max-width:600px) {
     .navbar-brand {
@@ -72,14 +75,28 @@ nav {
     .range {
         font-size: medium;
     }    
-
+    #noPad {
+        padding-top: 150px;
+        height:300px;
+    }
+    #noPad h2{
+        font-size: 20px;
+    }
 }
+
 @media (min-width: 600px) {
     #caption {
         font-size: 30px !important;
     }
     .contact {
         margin-right: 80px;
+    }
+    #noPad {
+        padding-top: 250px;
+        height:480px;
+    }
+    #noPad h2{
+        font-size: 20px;
     }
 }
 @media (min-width: 1000px) {
@@ -92,5 +109,12 @@ nav {
     }
     .img-responsive {
         justify-content: space-between;
+    }
+    #noPad {
+        padding-top: 250px;
+        height:480px;
+    }
+    #noPad h2{
+        font-size: 35px;
     }
 }

@@ -53,7 +53,6 @@ $_SESSION['mailsent'] = null;
 </head>
 
 <body>
-    <!-- Add your content of header -->
     <header>
         <nav class="navbar navbar-inverse navbar-fixed-top bg-danger" style="background-color: #343A40;">
             <div class="container">
@@ -73,7 +72,7 @@ $_SESSION['mailsent'] = null;
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <ul class="nav navbar-nav navbar-right">
-                        <li>
+                    <li>
                             <a href="./index.html" class="anchor-link">Home</a>
                         </li>
                         <li>
@@ -88,26 +87,25 @@ $_SESSION['mailsent'] = null;
         </nav>
     </header>
 
-    <!-- Add your site or app content here -->
     <div class="container " style="margin-top: 70px;">
         <div class="row">
             <div class="col-xs-12 col-md-6">
                 <div class="template-example">
-                    <h2 class="text-center">Access Control Systems</h2>
+                    <h2 class="text-center">Inverter And Solar Installation</h2>
                     <p>
-                        Access control systems can help you better keep important things safe, keep your family safe,
-                        prevent theft, and even help you guard secrets, be it personal or business.
+                    The power instability in Nigeria is the major reason why most
+                    Nigerians do not perform to the full potential. From studying, to entertainment, all the way to
+                    work, we need power 90% of the time to perform the tasks we need to get to the next level in our
+                    lives.
                     </p>
-                    <img src="./assets/images/access-control-img2.jpeg" alt="access contol system"
+                    <img src="./assets/images/solar-inverter-img2.png" alt="Inverter And Solar Installation"
                         class="img-responsive"><br>
-                    <p>It is very easy to lose important things, when the wrong people have access to the right things.
-                        Safeguarding your building and house or parts of your office from people you do not trust
-                        completely is very important. It is your sole responsibility to keep the wrong people away from
-                        the right things in your office or home, so that you do not lose very valuable things.<br>
-                        We at Rubtech Technologies are very conscious of security and safety, so we have developed the
-                        very best access control systems and have access to procure and install international standard
-                        systems to suit your needs, and secure you.
-                    </p>
+                    <p>
+                    The power instability in Nigeria is the major reason why most
+                    Nigerians do not perform to the full potential. From studying, to entertainment, all the way to
+                    work, we need power 90% of the time to perform the tasks we need to get to the next level in our
+                    lives.
+                                    </p>
                 </div>
             </div>
 
@@ -117,9 +115,8 @@ $_SESSION['mailsent'] = null;
                         <div class="col-xs-12 col-md-9">
                             <div class="section-container-spacer">
                                 <h2 class="text-center">Get in touch</h2>
-                                <p>fill the form below, and we will call you to discus, help you find the best
-                                    solution to fit your very specification.
-                                </p>
+                                <p>You can simply fill the form below, and we will contact you as soon as
+                    possible, so we can discus and find something that suits you.</p>
                             </div>
                             <form id="myform" name="myform" action="form.php" method="post" onsubmit="return validate()">
                                 <div class="row">
@@ -144,7 +141,7 @@ $_SESSION['mailsent'] = null;
                                 </div>
 
                                 <div class="form-group">
-                                    <textarea class="form-control" id="service" name="service" rows="3" placeholder="Enter service(s)" reqired></textarea>
+                                    <textarea class="form-control" id="text" name="text" rows="3" placeholder="Enter service(s)" reqired></textarea>
                                 </div>
                                 <div>
 

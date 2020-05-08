@@ -53,7 +53,6 @@ $_SESSION['mailsent'] = null;
 </head>
 
 <body>
-    <!-- Add your content of header -->
     <header>
         <nav class="navbar navbar-inverse navbar-fixed-top bg-danger" style="background-color: #343A40;">
             <div class="container">
@@ -73,7 +72,7 @@ $_SESSION['mailsent'] = null;
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <ul class="nav navbar-nav navbar-right">
-                        <li>
+                    <li>
                             <a href="./index.html" class="anchor-link">Home</a>
                         </li>
                         <li>
@@ -88,26 +87,39 @@ $_SESSION['mailsent'] = null;
         </nav>
     </header>
 
-    <!-- Add your site or app content here -->
     <div class="container " style="margin-top: 70px;">
         <div class="row">
             <div class="col-xs-12 col-md-6">
                 <div class="template-example">
-                    <h2 class="text-center">Access Control Systems</h2>
+                    <h2 class="text-center">Vehicle Tracking</h2>
                     <p>
-                        Access control systems can help you better keep important things safe, keep your family safe,
-                        prevent theft, and even help you guard secrets, be it personal or business.
+                    Nigeria is ranked as the world’s 16th most dangerous country, with car
+                    theft contributing majorly to this result. It is getting increasingly difficult to stay a day
+                    without getting reports of a missing car. Kidnap and theft cases can easily be solved if car owners
+                    are able to install tracking devices in their cars to track car location at anytime, and from
+                    anywhere.
                     </p>
-                    <img src="./assets/images/access-control-img2.jpeg" alt="access contol system"
+                    <img src="./assets/images/Vehicle-Tracking-img2.jpg" alt="vehicle tracking"
                         class="img-responsive"><br>
-                    <p>It is very easy to lose important things, when the wrong people have access to the right things.
-                        Safeguarding your building and house or parts of your office from people you do not trust
-                        completely is very important. It is your sole responsibility to keep the wrong people away from
-                        the right things in your office or home, so that you do not lose very valuable things.<br>
-                        We at Rubtech Technologies are very conscious of security and safety, so we have developed the
-                        very best access control systems and have access to procure and install international standard
-                        systems to suit your needs, and secure you.
-                    </p>
+                        <p>We at Rubtech have the most advanced tracking equipment to keep your car safe, and
+                    enable you recover your car no matter the circumstances.</p>
+                <h3>We give you the following abilities:</h3>
+                <ul type="square">
+                    <li class="font-weight-bold">Vehicle Speed</li>
+                    Track your vehicle’s speed, current location and status anytime, anywhere.
+                    <li class="font-weight-bold">Track on The Move</li>
+                    You can track from any location with your mobile phone. Even with a nokia 3310 Phone.
+                    <li class="font-weight-bold">No Hidden Charges</li>
+                    Our prices are affordable with no recurring bills. Yes! No monthly fees, No annual Fees.
+                    <li class="font-weight-bold">Live Map Tracking</li>
+                    See every detail of your car’s location. See full street address on our live map and exact location
+                    at any point in time.
+                    <li class="font-weight-bold">Fleet Monitoring</li>
+                    Our system grows with you. You can enjoy our fleet management packages if you have more cars.
+                    <li class="font-weight-bold">Reports On Demand</li>
+                    Communicate with your car on the go. Get instant report about your car on your mobile phone whenever
+                    you desire.
+                </ul>
                 </div>
             </div>
 
@@ -117,9 +129,8 @@ $_SESSION['mailsent'] = null;
                         <div class="col-xs-12 col-md-9">
                             <div class="section-container-spacer">
                                 <h2 class="text-center">Get in touch</h2>
-                                <p>fill the form below, and we will call you to discus, help you find the best
-                                    solution to fit your very specification.
-                                </p>
+                                <p>Just fill the form bellow, and we will contact you to discuss and find
+                    what is right for you.</p>
                             </div>
                             <form id="myform" name="myform" action="form.php" method="post" onsubmit="return validate()">
                                 <div class="row">
@@ -144,7 +155,7 @@ $_SESSION['mailsent'] = null;
                                 </div>
 
                                 <div class="form-group">
-                                    <textarea class="form-control" id="service" name="service" rows="3" placeholder="Enter service(s)" reqired></textarea>
+                                    <textarea class="form-control" id="text" name="text" rows="3" placeholder="Enter service(s)" reqired></textarea>
                                 </div>
                                 <div>
 

@@ -53,7 +53,6 @@ $_SESSION['mailsent'] = null;
 </head>
 
 <body>
-    <!-- Add your content of header -->
     <header>
         <nav class="navbar navbar-inverse navbar-fixed-top bg-danger" style="background-color: #343A40;">
             <div class="container">
@@ -73,7 +72,7 @@ $_SESSION['mailsent'] = null;
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <ul class="nav navbar-nav navbar-right">
-                        <li>
+                    <li>
                             <a href="./index.html" class="anchor-link">Home</a>
                         </li>
                         <li>
@@ -88,25 +87,27 @@ $_SESSION['mailsent'] = null;
         </nav>
     </header>
 
-    <!-- Add your site or app content here -->
     <div class="container " style="margin-top: 70px;">
         <div class="row">
             <div class="col-xs-12 col-md-6">
                 <div class="template-example">
-                    <h2 class="text-center">Access Control Systems</h2>
+                    <h2 class="text-center">Sloar Powered Street Light</h2>
                     <p>
-                        Access control systems can help you better keep important things safe, keep your family safe,
-                        prevent theft, and even help you guard secrets, be it personal or business.
+                    It is not new to hear about cases of waylaying victims at dark street
+                    corners especially close to their own houses on their way home after a long day at work or on their
+                    way from work at night, or to hear of silly things like snake bites or other unfortunate stories
+                    that happen because of poorly illuminated streets.
                     </p>
-                    <img src="./assets/images/access-control-img2.jpeg" alt="access contol system"
+                    <img src="./assets/images/solar-lights-img3.jpg" alt="Street Lights"
                         class="img-responsive"><br>
-                    <p>It is very easy to lose important things, when the wrong people have access to the right things.
-                        Safeguarding your building and house or parts of your office from people you do not trust
-                        completely is very important. It is your sole responsibility to keep the wrong people away from
-                        the right things in your office or home, so that you do not lose very valuable things.<br>
-                        We at Rubtech Technologies are very conscious of security and safety, so we have developed the
-                        very best access control systems and have access to procure and install international standard
-                        systems to suit your needs, and secure you.
+                    <p>
+                    It is well known that evil things hardly happen around well lit areas. Getting
+                    solar powered street lights help you avoid unfortunate incidents that happen in the dark, and helps
+                    you better secure your premises.Using the sun’s ray to charge during the day, without the need to
+                    depend on the power supply company, you can be sure that your premises will always be lit up every
+                    evening till dawn thereby keeping your surrounding safe at all times.
+                    <br>We at Rubtech Technologies are very safety and security conscious, and we have the best solar
+                    powered street light solutions to meet your needs.
                     </p>
                 </div>
             </div>
@@ -117,15 +118,14 @@ $_SESSION['mailsent'] = null;
                         <div class="col-xs-12 col-md-9">
                             <div class="section-container-spacer">
                                 <h2 class="text-center">Get in touch</h2>
-                                <p>fill the form below, and we will call you to discus, help you find the best
-                                    solution to fit your very specification.
-                                </p>
+                                <p>Fill the form below, so that we can contact you via a call, and
+                    discuss with you to find out what kind of solar powered street lights would work best for you.</p>
                             </div>
                             <form id="myform" name="myform" action="form.php" method="post" onsubmit="return validate()">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your full name(first and last name)"
+                                            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your fullname(first and last name)"
                                                 autofocus rquired/>
                                         </div>
                                     </div>
@@ -144,7 +144,7 @@ $_SESSION['mailsent'] = null;
                                 </div>
 
                                 <div class="form-group">
-                                    <textarea class="form-control" id="service" name="service" rows="3" placeholder="Enter service(s)" reqired></textarea>
+                                    <textarea class="form-control" id="text" name="text" rows="3" placeholder="Enter service(s)" reqired></textarea>
                                 </div>
                                 <div>
 
