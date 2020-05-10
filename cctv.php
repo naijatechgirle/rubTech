@@ -142,7 +142,7 @@ $_SESSION['mailsent'] = null;
                                 </div>
 
                                 <div class="form-group">
-                                    <textarea class="form-control" id="text" name="text" rows="3" placeholder="Enter service(s)" reqired></textarea>
+                                    <textarea class="form-control" id="service" name="service" rows="3" placeholder="Enter service(s)" reqired></textarea>
                                 </div>
                                 <div>
 
