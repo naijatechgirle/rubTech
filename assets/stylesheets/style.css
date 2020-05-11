@@ -54,6 +54,14 @@ nav {
 .caption, .caption2 { 
     color: #000000 !important;
 }
+/* header {
+    overflow: hidden;
+}
+.sticky-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
 @media (max-width:600px) {
     .navbar-brand {
         padding-left: 30px;

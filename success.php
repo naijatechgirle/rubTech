@@ -19,7 +19,7 @@ if($_SESSION['mailsent']){
     <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon" />
     <link href="./assets/favicon.ico" rel="icon" />
 
-    <title>Title page</title>
+    <title>rubtech.com/success</title>
 
     <link href="./assets/stylesheets/main.css" rel="stylesheet" />
     <link href="./assets/stylesheets/style.css" rel="stylesheet" />
@@ -154,7 +154,7 @@ if($_SESSION['mailsent']){
     <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon" />
     <link href="./assets/favicon.ico" rel="icon" />
 
-    <title>Title page</title>
+    <title>rubtech.com/failed</title>
 
     <link href="./assets/stylesheets/main.css" rel="stylesheet" />
     <link href="./assets/stylesheets/style.css" rel="stylesheet" />
@@ -196,7 +196,7 @@ if($_SESSION['mailsent']){
 
     <div class="container" id="noPad" style="color:black; margin:auto;">
         <div>
-            <h2 class="text-center" style="justify-content: center; margin: auto;">Thanks for contacting us, we will get back to you shortly.</h2>
+            <h2 class="text-center" style="justify-content: center; margin: auto;">Oops! Please fill the form again.</h2>
         </div>
     </div>
 

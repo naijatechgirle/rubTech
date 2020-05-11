@@ -20,7 +20,7 @@ $_SESSION['mailsent'] = null;
     <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon" />
     <link href="./assets/favicon.ico" rel="icon" />
 
-    <title>Title page</title>
+    <title>rubtech.com/cctv</title>
 
     <link href="./assets/stylesheets/main.css" rel="stylesheet" />
     <link href="./assets/stylesheets/style.css" rel="stylesheet" />
@@ -52,7 +52,7 @@ $_SESSION['mailsent'] = null;
     </noscript>
 </head>
 
-<body>
+<body class="relative">
     <header>
         <nav class="navbar navbar-inverse navbar-fixed-top bg-danger" style="background-color: #343A40;">
             <div class="container">

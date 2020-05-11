@@ -1,3 +1,18 @@
+// window.onscroll = () => {
+//     stickyFunction()
+//   };
+  
+//   const navbar = document.getElementById("navbar");
+//   const sticky = navbar.offsetTop;
+  
+//   stickyFunction = () => {
+//     if (window.pageYOffset >= sticky) {
+//       navbar.classList.add("sticky")
+//     } else {
+//       navbar.classList.remove("sticky");
+//     }
+//   }
+
 function validate() {
     var regName = /^[a-zA-Z]+ [a-zA-Z]+$/;
     var name = document.getElementById('name').value;

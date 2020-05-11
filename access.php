@@ -20,7 +20,7 @@ $_SESSION['mailsent'] = null;
     <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon" />
     <link href="./assets/favicon.ico" rel="icon" />
 
-    <title>Title page</title>
+    <title>rubtech.com/access</title>
 
     <link href="./assets/stylesheets/main.css" rel="stylesheet" />
     <link href="./assets/stylesheets/style.css" rel="stylesheet" />
