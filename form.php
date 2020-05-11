@@ -29,7 +29,7 @@ try {
 
     //Recipients
     $mail->setFrom('rubtech@example.com', 'New Client Notification');
-    $mail->addAddress('kellyeluagu@gmail.com', 'rubtech');     // Add a recipient
+    $mail->addAddress('rubtechsolutions@gmail.com', 'rubtech');     // Add a recipient
     $mail->addReplyTo('info@example.com', 'Information');
 
     // Attachments
