@@ -101,6 +101,7 @@ $_SESSION['mailsent'] = null;
                     </p>
                     <img src="./assets/images/Vehicle-Tracking-img2.jpg" alt="vehicle tracking"
                         class="img-responsive"><br>
+                        <h3>Our Tracking Capabilities</h3>
                         <p>We at Rubtech have the most advanced tracking equipment to keep your car safe, and
                     enable you recover your car no matter the circumstances.</p>
                 <h3>We give you the following abilities:</h3>

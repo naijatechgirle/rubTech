@@ -92,12 +92,13 @@ $_SESSION['mailsent'] = null;
             <div class="col-xs-12 col-md-6">
                 <div class="template-example">
                     <h2 class="text-center">Fire Alarms Systems</h2>
-                    <p>
+                    <p>Our fire alarm system comes with quality and high-tech smoke detector, heat detector and fire breakers which set off an alarm anytime it detects an unusual degree of smoke or heat signature. It can also be installed with water sprinklers if requested.</p>
+                    <img src="./assets/images/firealarm-img.jpg" alt="fire alarm"
+                        class="img-responsive"><br>
+                        <p>
                     Preventing a fire helps you save lives of loved ones, and prevent
                     yourself from losing valuable property out of carelessness that might not even be your fault.
                     </p>
-                    <img src="./assets/images/firealarm-img.jpg" alt="fire alarm"
-                        class="img-responsive"><br>
                     <p>
                     Nigeria is ranked as the 16th most dangerous countries to live in for many reasons,
                     including an unresponsive fire service. Here in Nigeria, we are forced to take care of our own

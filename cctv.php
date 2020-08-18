@@ -97,6 +97,7 @@ $_SESSION['mailsent'] = null;
                     best state of the art CCTV solutions at the moment to give you the power you need to stay on top of
                     every situation at home, office or anywhere you care about.
                     </p>
+                    <p>However, with the rising demand for security in homes, offices and businesses today, RUBTECH TECHNOLOGIES AND SOLUTIONS LTD has simplified the installation of CCTV and IP Surveillance Cameras that serves dual purpose to an out-of-the-box solution which not only allow you view and record your surveillance videos on a storage device, but also enable you view live video on the GO using your PC or android devices.</p>
                     <img src="./assets/images/cctv-img.jpg" alt="cctv"
                         class="img-responsive"><br>
                     <p>

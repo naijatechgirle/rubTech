@@ -92,12 +92,7 @@ $_SESSION['mailsent'] = null;
             <div class="col-xs-12 col-md-6">
                 <div class="template-example">
                     <h2 class="text-center">Inverter And Solar Installation</h2>
-                    <p>
-                    The power instability in Nigeria is the major reason why most
-                    Nigerians do not perform to the full potential. From studying, to entertainment, all the way to
-                    work, we need power 90% of the time to perform the tasks we need to get to the next level in our
-                    lives.
-                    </p>
+                    <p>Our inverter ranges from 1Kva to 10Kva with sophisticated batteries and solar panels which can ensure uninterrupted power supply in your homes/offices. With our inverter and solar solution, the worry of National grid frequent power outage and regular expenses on gas for generators will be reduced drastically. </p>
                     <img src="./assets/images/solar-inverter-img2.png" alt="Inverter And Solar Installation"
                         class="img-responsive"><br>
                     <p>
@@ -105,7 +100,7 @@ $_SESSION['mailsent'] = null;
                     Nigerians do not perform to the full potential. From studying, to entertainment, all the way to
                     work, we need power 90% of the time to perform the tasks we need to get to the next level in our
                     lives.
-                                    </p>
+                    </p>
                 </div>
             </div>
 

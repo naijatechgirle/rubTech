@@ -93,10 +93,10 @@ $_SESSION['mailsent'] = null;
                 <div class="template-example">
                     <h2 class="text-center">Sloar Powered Street Light</h2>
                     <p>
-                    It is not new to hear about cases of waylaying victims at dark street
-                    corners especially close to their own houses on their way home after a long day at work or on their
-                    way from work at night, or to hear of silly things like snake bites or other unfortunate stories
-                    that happen because of poorly illuminated streets.
+                    The power instability in Nigeria is the major reason why most
+                    Nigerians do not perform to the full potential. From studying, to entertainment, all the way to
+                    work, we need power 90% of the time to perform the tasks we need to get to the next level in our
+                    lives.
                     </p>
                     <img src="./assets/images/solar-lights-img3.jpg" alt="Street Lights"
                         class="img-responsive"><br>
@@ -108,6 +108,12 @@ $_SESSION['mailsent'] = null;
                     evening till dawn thereby keeping your surrounding safe at all times.
                     <br>We at Rubtech Technologies are very safety and security conscious, and we have the best solar
                     powered street light solutions to meet your needs.
+                    </p>
+                    <p>
+                    It is not new to hear about cases of waylaying victims at dark street
+                    corners especially close to their own houses on their way home after a long day at work or on their
+                    way from work at night, or to hear of silly things like snake bites or other unfortunate stories
+                    that happen because of poorly illuminated streets.
                     </p>
                 </div>
             </div>

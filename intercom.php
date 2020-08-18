@@ -92,14 +92,15 @@ $_SESSION['mailsent'] = null;
             <div class="col-xs-12 col-md-6">
                 <div class="template-example">
                     <h2 class="text-center">Intercom Systems</h2>
-                    <p>
+                    <p>Our intercom system provides a two-way communication electronic device that contains circuitry for the purpose of transmitting and receiving audio and video transmissions. Our intercom system ranges from home intercom system, office intercom system, wired and wireless intercom system. We have display and non-display phone boxes as well as PABX with console that enables local and international calls. Also, we are capable of providing and programming small and multiple intercom extensions.</p>
+                    <img src="./assets/images/solar-lights-img3.jpg" alt="Street Lights"
+                        class="img-responsive"><br>
+                         <p>
                     The need for communication is high in our modern day world. Whether it
                     is to get your kids on an errand, or to tell your secretary not to let anyone in till further
                     notice, or even to let your partner know that the meal is ready, intercoms are something that every
                     household and office needs.
                     </p>
-                    <img src="./assets/images/solar-lights-img3.jpg" alt="Street Lights"
-                        class="img-responsive"><br>
                     <p>
                     Whether you need to connect your entire office building, or just two parts of your
                     house, Rubtech Technologies has the perfect solution for you. Even, better, our solutions are very
